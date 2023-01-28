@@ -31,7 +31,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/MallikarjunaReddy_CV.pdf" download>
+              <a href="./src/assets/MallikarjunaReddy_CV.pdf" target="_blank" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>

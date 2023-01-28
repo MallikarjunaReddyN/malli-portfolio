@@ -5,98 +5,75 @@ const Skills = () => {
     {
       name: "HTML",
       logo: "logo-html5",
-      level: "Advance",
-      count: 86,
     },
     {
       name: "CSS",
       logo: "logo-css3",
       level: "Expect",
-      count: 90,
     },
     {
       name: "Tailwind CSS",
       logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
     },
     {
       name: "JavaScript",
       logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
     },
     {
       name: "ReactJs",
       logo: "logo-html5",
-      level: "Advance",
-      count: 86,
     },
     {
       name: "Java",
       logo: "logo-css3",
-      level: "Expect",
-      count: 90,
     },
     {
       name: "Spring Boot",
       logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
     },
     {
       name: "Rest API",
       logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
     },
     {
       name: "Spring Data JPA",
       logo: "logo-html5",
-      level: "Advance",
-      count: 86,
     },
     {
       name: "Microservices",
       logo: "logo-css3",
-      level: "Expect",
-      count: 90,
     },
     {
       name: "Spring Cloud",
       logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
     },
     {
       name: "Maven & Gradle",
       logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
     },
     {
       name: "Docker",
       logo: "logo-html5",
-      level: "Advance",
-      count: 86,
     },
     {
       name: "MySQL",
       logo: "logo-css3",
-      level: "Expect",
-      count: 90,
     },
     {
       name: "PostgreSQL",
       logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
+    },
+    {
+      name: "Redis",
+      logo: "logo-nodejs",
+    },
+    {
+      name: "Git & GitHub",
+      logo: "logo-react",
     },
     {
       name: "AWS fundamentals",
       logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
     },
     
   ];
