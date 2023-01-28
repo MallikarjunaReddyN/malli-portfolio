@@ -57,7 +57,7 @@ function Experience() {
         {companies.map((company, i) => (
             <div key={i} className={`min-w-[12rem] max-w-[20rem] p-4 ${company.from_to.toLowerCase().includes("present") ? "bg-yellow-600" : "bg-slate-700" } rounded-xl`}>
             <img src={company.img} alt="" className="rounded-lg w-[310px] h-[200px]" />
-            <h3 className="text-xl my-4">{company.name}</h3>
+            <h3 className="text-xl my-4 font-bold">{company.name}</h3>
             <h3 className={`text-lg ${company.from_to.toLowerCase().includes("present") ? "text-slate-700" : "text-slate-400" } my-4`}>{company.designation}</h3>
             <h3 className={`text-lg ${company.from_to.toLowerCase().includes("present") ? "text-slate-700" : "text-slate-400" } my-4`}>{company.from_to}</h3>
             <div className="flex gap-3 pl-24">

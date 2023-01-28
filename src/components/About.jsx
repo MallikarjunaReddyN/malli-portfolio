@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/images/malli.png";
+import resume from "../assets/MallikarjunaReddy_CV.pdf"
 const About = () => {
   const info = [
     { text: "Years experience", count: "03+" },
@@ -31,7 +32,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/MallikarjunaReddy_CV.pdf" target="_blank" download>
+              <a href={resume} target="_blank" data-text="Download CV"  download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
