@@ -1,9 +1,3 @@
-import React from "react";
-import miq from "../assets/images/miq.jpeg";
-import xebia from "../assets/images/xebia.jpeg";
-import huawei from "../assets/images/huawei.png";
-import Social from "./Social";
-
 function Education() {
   const collages = [
     {
