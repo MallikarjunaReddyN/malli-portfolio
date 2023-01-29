@@ -46,7 +46,7 @@ const Navbar = () => {
             open ? "text-gray-900" : "text-gray-100"
           } text-3xl md:hidden m-5`}
         >
-          <ion-icon name="menu"></ion-icon>
+          <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
         </div>
         <div
           className={`md:hidden text-gray-900 absolute w-2/3 h-screen
