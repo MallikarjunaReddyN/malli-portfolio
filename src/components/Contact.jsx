@@ -42,7 +42,7 @@ const Contact = () => {
                 <div className="min-w-[3.5rem] text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-yellow-600 rounded-full">
                   <ion-icon name={contact.logo}></ion-icon>
                 </div>
-                <p className="md:text-base text-[13px] break-words">
+                <p className="md:text-base text-[13px] font-semibold break-words">
                   {contact.text}
                 </p>
               </div>

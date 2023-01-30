@@ -109,7 +109,7 @@ const Skills = () => {
           {skills?.map((skill, i) => (
             <div
               key={i}
-              className="bg-gray-900 grid gap-[2rem] justify-center items-center p-5 w-[10rem] h-[10rem] rounded-md hover:shadow-md hover:scale-[1.1] transition-[0.4s]"
+              className="bg-gray-900 grid gap-[2rem] justify-center items-center p-5 w-[10rem] h-[10rem] rounded-md hover:shadow-md hover:scale-[1.1] transition-[0.4s]  hover:text-yellow-600"
             >
               <div className="justify-self-center w-16 h-16 border-[1px] border-yellow-500 rounded-full flex justify-center items-center">
                 <img
@@ -118,7 +118,7 @@ const Skills = () => {
                   className={`w-[2.5rem] h-[2.5rem] ${["Rest API", "Microservices", "Maven", "Git & GitHub"].includes(skill.name) ? "rounded-full" : ""}`}
                 />
               </div>
-              <h3 className="mt-[-25px] skills__name">{skill.name}</h3>
+              <h3 className="mt-[-25px] font-semibold">{skill.name}</h3>
             </div>
           ))}
         </div>
