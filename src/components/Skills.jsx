@@ -1,22 +1,23 @@
 import React from "react";
-import html from "../assets/images/html-logo.svg"
-import css from "../assets/images/css-logo.svg"
+import html from "../assets/images/html-logo.webp"
+import css from "../assets/images/css-logo.png"
 import tailwindcss from "../assets/images/tailwindcss-logo.svg"
 import js from "../assets/images/javascript-logo.svg"
 import react from "../assets/images/react-logo.svg"
 import java from "../assets/images/java-logo.svg"
 import springboot from "../assets/images/springboot-logo.svg"
-import restapi from "../assets/images/restapi-logo.png"
+import restapi from "../assets/images/rest-api-logo.svg"
 import spring from "../assets/images/spring-logo.svg"
+import spring_cloud from "../assets/images/spring-cloud-logo.png"
 import microservices from "../assets/images/microservices-logo.png"
 import maven from "../assets/images/maven-logo.jpeg"
 import gradle from "../assets/images/gradle-logo.svg"
-import docker from "../assets/images/docker-logo.svg"
-import mysql from "../assets/images/mysql-logo.svg"
+import docker from "../assets/images/docker-logo.png"
+import mysql from "../assets/images/mysql-logo.png"
 import postgresql from "../assets/images/postgresql-logo.svg"
 import redis from "../assets/images/redis-logo.svg"
 import github from "../assets/images/github-logo.png"
-import aws from "../assets/images/aws-logo.svg"
+import aws from "../assets/images/aws-logo.png"
 
 const Skills = () => {
   const skills = [
@@ -62,7 +63,7 @@ const Skills = () => {
       name: "Microservices",
     },
     {
-      img: spring,
+      img: spring_cloud,
       name: "Spring Cloud",
     },
     {
@@ -115,7 +116,7 @@ const Skills = () => {
                 <img
                   src={skill.img}
                   alt="Figma Logo"
-                  className={`w-[2.5rem] h-[2.5rem] ${["Rest API", "Microservices", "Maven", "Git & GitHub"].includes(skill.name) ? "rounded-full" : ""}`}
+                  className={`w-[2.5rem] h-[2.5rem] ${["CSS", "Microservices", "Maven", "Docker", "Git & GitHub", "AWS fundamentals"].includes(skill.name) ? "rounded-full" : ""}`}
                 />
               </div>
               <h3 className="mt-[-25px] font-semibold">{skill.name}</h3>
