@@ -7,7 +7,7 @@ import react from "../assets/images/react-logo.svg"
 import java from "../assets/images/java-logo.svg"
 import springboot from "../assets/images/springboot-logo.svg"
 import restapi from "../assets/images/rest-api-logo.svg"
-import spring from "../assets/images/spring-logo.svg"
+import spring_data_jpa from "../assets/images/spring-data-jpa.png"
 import spring_cloud from "../assets/images/spring-cloud-logo.png"
 import microservices from "../assets/images/microservices-logo.png"
 import maven from "../assets/images/maven-logo.jpeg"
@@ -55,7 +55,7 @@ const Skills = () => {
       name: "Rest API",
     },
     {
-      img: spring,
+      img: spring_data_jpa,
       name: "Spring Data JPA",
     },
     {
@@ -116,7 +116,7 @@ const Skills = () => {
                 <img
                   src={skill.img}
                   alt="Figma Logo"
-                  className={`w-[2.5rem] h-[2.5rem] ${["CSS", "Microservices", "Maven", "Docker", "Git & GitHub", "AWS fundamentals"].includes(skill.name) ? "rounded-full" : ""}`}
+                  className={`w-[2.5rem] h-[2.5rem] ${["CSS", "Spring Data JPA", "Microservices", "Maven", "Docker", "Git & GitHub", "AWS fundamentals"].includes(skill.name) ? "rounded-full" : ""}`}
                 />
               </div>
               <h3 className="mt-[-25px] font-semibold">{skill.name}</h3>
