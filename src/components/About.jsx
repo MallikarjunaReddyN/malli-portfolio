@@ -18,7 +18,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-              Fullstack developer with 3+ years of experience in building web applications using HTML, CSS, JavaScript, ReactJs, Java, Spring MVC, Spring Boot, Rest API, Microservices, Spring cloud and Postgres SQL.
+              Fullstack developer with 4+ years of experience in building web applications using HTML, CSS, JavaScript, ReactJs, Java, Spring MVC, Spring Boot, Rest API, Microservices, Spring cloud, MySQL, PostgreSQL and Azure.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
