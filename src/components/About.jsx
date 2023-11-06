@@ -3,8 +3,8 @@ import aboutImg from "../assets/images/malli.png";
 import resume from "../assets/MallikarjunaReddy_CV.pdf"
 const About = () => {
   const info = [
-    { text: "Years experience", count: "03+" },
-    { text: "Companies Work", count: "03" },
+    { text: "Years experience", count: "04+" },
+    { text: "Companies Work", count: "04" },
     { text: "Technical Skills", count: "15+" },
   ];
   return (
