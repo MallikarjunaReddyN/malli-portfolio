@@ -1,22 +1,32 @@
 import React from "react";
+import dtici from "../assets/images/dtici.jpeg";
 import miq from "../assets/images/miq.jpeg";
 import xebia from "../assets/images/xebia.jpeg";
 import huawei from "../assets/images/huawei.png";
 
 function Experience() {
     const companies = [
-        {
+      {
+        img: dtici,
+        name: "Daimler Trucks",
+        designation: "Senior Consultant",
+        from_to: "June 2023 - Present",
+        social_media: [
+          {icon: "logo-instagram", link: "https://www.instagram.com/daimlertruck_ag/?hl=en" },
+          {icon: "logo-linkedin", link: "https://in.linkedin.com/company/daimler-truck-innovation-center-india" },
+          {icon: "earth", link: "https://www.daimlertruck.com/en" },
+        ]
+      },  
+      {
           img: miq,
           name: "MIQ Digital",
           designation: "Software Engineer - II",
-          from_to: "Sept 2022 - Present",
+          from_to: "Sept 2022 - May 2023",
           social_media: [
             {icon: "logo-instagram", link: "https://www.instagram.com/wearemiq/?hl=en" },
             {icon: "logo-linkedin", link: "https://in.linkedin.com/company/miq-digital" },
             {icon: "earth", link: "https://www.wearemiq.com/" },
-          ],
-          github_link: "https://github.com/Sridhar-C-25",
-          live_link: "https://myreactflix.netlify.app",
+          ]
         },
         {
           img: xebia,
@@ -27,9 +37,7 @@ function Experience() {
             {icon: "logo-instagram", link: "https://www.instagram.com/life_at_xebia/?hl=en" },
             {icon: "logo-linkedin", link: "https://in.linkedin.com/company/xebia" },
             {icon: "earth", link: "https://xebia.com/" },
-          ],
-          github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-          live_link: "https://myjobsearch.netlify.app",
+          ]
         },
         {
           img: huawei,
@@ -40,9 +48,7 @@ function Experience() {
             {icon: "logo-instagram", link: "https://www.instagram.com/huawei/?hl=en" },
             {icon: "logo-linkedin", link: "https://in.linkedin.com/company/huawei-india-r&d-center" },
             {icon: "earth", link: "https://www.huawei.com/en/" },
-          ],
-          github_link: "https://github.com/Sridhar-C-25/highking",
-          live_link: "https://highking01.netlify.app",
+          ]
         },
       ];
 

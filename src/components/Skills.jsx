@@ -17,7 +17,7 @@ import mysql from "../assets/images/mysql-logo.png"
 import postgresql from "../assets/images/postgresql-logo.svg"
 import redis from "../assets/images/redis-logo.svg"
 import github from "../assets/images/github-logo.png"
-import aws from "../assets/images/aws-logo.png"
+import azure from "../assets/images/azure-logo.png"
 
 const Skills = () => {
   const skills = [
@@ -95,8 +95,8 @@ const Skills = () => {
       name: "Git & GitHub",
     },
     {
-      img: aws,
-      name: "AWS fundamentals",
+      img: azure,
+      name: "Azure",
     },
   ];
   return (
