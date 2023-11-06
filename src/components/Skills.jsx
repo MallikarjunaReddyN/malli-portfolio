@@ -17,6 +17,7 @@ import mysql from "../assets/images/mysql-logo.png"
 import postgresql from "../assets/images/postgresql-logo.svg"
 import redis from "../assets/images/redis-logo.svg"
 import github from "../assets/images/github-logo.png"
+import azure_devops from "../assets/images/azure-devops.webp"
 import azure from "../assets/images/azure.png"
 
 const Skills = () => {
@@ -93,6 +94,10 @@ const Skills = () => {
     {
       img: github,
       name: "Git & GitHub",
+    },
+    {
+      img: azure_devops,
+      name: "Azure DevOps",
     },
     {
       img: azure,
