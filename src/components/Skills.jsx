@@ -17,7 +17,7 @@ import mysql from "../assets/images/mysql-logo.png"
 import postgresql from "../assets/images/postgresql-logo.svg"
 import redis from "../assets/images/redis-logo.svg"
 import github from "../assets/images/github-logo.png"
-import azure from "../assets/images/azure.jpeg"
+import azure from "../assets/images/azure.png"
 
 const Skills = () => {
   const skills = [
