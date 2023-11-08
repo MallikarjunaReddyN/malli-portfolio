@@ -22,9 +22,7 @@ const Home = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Fullstack Developer
           </h4>
-          <a href="#contact">
-                <button className="btn-primary mt-8">Contact Me</button>
-              </a>
+          <AnchorLink href="#contact"><button className="btn-primary mt-8">Contact Me</button></AnchorLink>
           <Social value="mt-8"/>
         </div>
       </div>
