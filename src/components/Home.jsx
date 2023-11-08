@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import fullstackdevelopment from "../assets/images/job.gif";
 import Social from "./Social";
 const Home = () => {
