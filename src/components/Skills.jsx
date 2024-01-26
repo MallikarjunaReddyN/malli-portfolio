@@ -111,7 +111,7 @@ const Skills = () => {
           <span className="text-yellow-600">My</span> Skills
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
-        <div className="grid grid-cols-2 lg:grid-cols-4 lg:w-[70%] lg:mx-auto place-items-center justify-center mt-12 gap-10 mx-4">
+        <div className="grid grid-cols-2 lg:grid-cols-5 lg:w-[70%] lg:mx-auto place-items-center justify-center mt-12 gap-10 mx-4">
           {skills?.map((skill, i) => (
             <div
               key={i}
