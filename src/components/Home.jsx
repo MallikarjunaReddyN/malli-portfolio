@@ -14,13 +14,13 @@ const Home = () => {
       <div className="flex-1">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
-            <span className="text-yellow-600 md:text-6xl text-5xl">
+            <span className="text-[#EE3F37] md:text-6xl text-5xl">
               Hello!
               <br />
             </span>
             I'm <span>Mallikarjuna Reddy N</span>
           </h1>
-          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
+          <h4 className="md:text-3xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-300">
             Fullstack Developer
           </h4>
           <AnchorLink href="#contact"><button className="btn-primary mt-8">Contact Me</button></AnchorLink>

@@ -11,7 +11,7 @@ const About = () => {
     <section id="about" className="pb-10 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          About <span className="text-yellow-600">Me</span>
+          About <span className="text-[#EE3F37]">Me</span>
         </h3>
         <p className="text-gray-400 my-3 text-lg">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
@@ -23,7 +23,7 @@ const About = () => {
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>
-                    <h3 className="md:text-4xl text-2xl font-semibold text-yellow-600">
+                    <h3 className="md:text-4xl text-2xl font-semibold text-[#EE3F37]">
                       {content.count}
                     </h3>
                     <span className="md:text-base text-xs">{content.text}</span>
@@ -42,7 +42,7 @@ const About = () => {
               <img
                 src={aboutImg}
                 alt=""
-                className="w-full object-cover bg-yellow-600 rounded-xl"
+                className="w-full object-cover bg-[#EE3F37] rounded-xl"
               />
             </div>
           </div>

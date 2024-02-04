@@ -13,7 +13,7 @@ function Social({value}) {
       {social_media?.map((media) => (
         <div
           key={media.icon}
-          className="text-gray-600 hover:text-white cursor-pointer "
+          className="text-gray-400 hover:text-white cursor-pointer "
         >
           <a href={media.link} target="_blank"> 
             <ion-icon name={media.icon}></ion-icon>

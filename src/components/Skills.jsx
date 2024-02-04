@@ -105,19 +105,19 @@ const Skills = () => {
     },
   ];
   return (
-    <section id="skills" className="py-10 bg-gray-800 relative">
+    <section id="skills" className="py-10 relative">
       <div className="mt-8 text-gray-100 text-center">
         <h3 className="text-4xl font-semibold">
-          <span className="text-yellow-600">My</span> Skills
+          <span className="text-[#EE3F37]">My</span> Skills
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
         <div className="grid grid-cols-2 lg:grid-cols-5 lg:w-[70%] lg:mx-auto place-items-center justify-center mt-12 gap-10 mx-4">
           {skills?.map((skill, i) => (
             <div
               key={i}
-              className="bg-gray-900 grid gap-[2rem] justify-center items-center p-5 w-[10rem] h-[10rem] rounded-md hover:shadow-md hover:scale-[1.1] transition-[0.4s]  hover:text-yellow-600"
+              className="bg-slate-700 grid gap-[2rem] justify-center items-center p-5 w-[10rem] h-[10rem] rounded-md hover:shadow-md hover:scale-[1.1] transition-[0.4s]"
             >
-              <div className="justify-self-center w-16 h-16 border-[1px] border-yellow-500 rounded-full flex justify-center items-center">
+              <div className="justify-self-center w-16 h-16 rounded-full flex justify-center items-center">
                 <img
                   src={skill.img}
                   alt="Figma Logo"

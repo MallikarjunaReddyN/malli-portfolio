@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import mlogo from "../assets/images/m-logo.jpeg"
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -26,16 +27,14 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <h4 className="text-4xl uppercase font-bold text-white">
-            M<span className="text-yellow-600">@</span>ll<span className="text-yellow-600">!</span>
-          </h4>
+        <AnchorLink href="#home"><img src={mlogo} alt="" className="md:w-8 h-8 object-cover" /></AnchorLink>
         </div>
         <div
-          className={` text-white md:block hidden px-7 py-2 font-medium  rounded-bl-full`}
+          className={` text-white md:block hidden px-7 py-2 font-medium rounded-bl-full`}
         >
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, i) => (
-              <li key={i} className="px-6 hover:text-yellow-600">
+              <li key={i} className="px-6 hover:text-[#EE3F37]">
                 <AnchorLink href={menu?.link}>{menu?.name}</AnchorLink>
               </li>
             ))}
@@ -55,12 +54,12 @@ const Navbar = () => {
         open ? "right-0" : "right-[-100%]"
       }`}
         >
-          <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg">
+          <ul className="flex flex-col justify-center h-full gap-10 py-2 ">
             {menuLinks?.map((menu, i) => (
               <li
                 onClick={() => setOpen(false)}
                 key={i}
-                className="px-6 hover:text-yellow-600"
+                className="px-6  hover:text-[#EE3F37]"
               >
                 <AnchorLink href={menu?.link}>{menu?.name}</AnchorLink>
               </li>
